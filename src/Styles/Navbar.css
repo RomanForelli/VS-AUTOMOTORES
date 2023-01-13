@@ -1,0 +1,15 @@
+.navbar {
+    background-color: transparent !important;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.logo {
+    border-radius: 20%;
+}
