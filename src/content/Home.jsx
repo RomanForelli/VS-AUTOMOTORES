@@ -5,6 +5,7 @@ import SectionTree from '../Layout/SectionTree';
 import SectionTwo from '../Layout/SectionTwo';
 import "../Styles/Home.css"
 import SectionFive from '../Layout/SectionFive';
+import Navbar from './Navbar';
 
 const Home = () => {
     return (

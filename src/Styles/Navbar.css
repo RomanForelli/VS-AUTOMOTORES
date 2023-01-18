@@ -1,15 +1,27 @@
 .navbar {
-    background-color: transparent !important;
+
 }
 
 .navegacion {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.48) !important;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.48);
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
     
     
 }
 
 .logo {
     border-radius: 20%;
+    justify-self: start;
+    cursor: pointer;
 }

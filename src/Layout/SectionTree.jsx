@@ -8,7 +8,9 @@ const SectionTree = () => {
                 <h2> Porque Elegirnos:</h2>
 
                 <div>
-
+                    <div>
+                        <img src="" alt="" />
+                    </div>
                 </div>
 
 
