@@ -1,9 +1,17 @@
 import React from 'react';
+import SectionFour from '../Layout/SectionFour';
+import SectionServicios from '../Layout/SectionServicios';
+import SectionTree from '../Layout/SectionTree';
 
 const Servicios = () => {
     return (
-        <>
-            <h1> Servicios </h1>
+        <>  
+            <div id='Servicios'>
+            <SectionServicios/>
+            <SectionTree/>
+            <SectionFour/>
+            </div>
+
         </>
     );
 }

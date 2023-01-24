@@ -1,4 +1,5 @@
 import React from 'react';
+import imagenuno from "../img/hombrepapeles1.jpg"
 
 const SectionTree = () => {
     return (
@@ -6,8 +7,8 @@ const SectionTree = () => {
 <section id='SectionTree'>
             <div className='container'>
                 
-                        <div className='columnasVentas'>
-                        <ul className='col-md-4'>
+                        <div className='d-flex columnasVentas col-12'>
+                        <ul className='col-6 text-center'>
                             <li>
                                 Si le interesa nuestro servicio, coordinamos un día y horario para acercarnos a donde se encuentre su vehículo, le tomamos las fotos correspondientes y le solicitamos firmar la autorización de venta, una vez realizado, dentro de las 48hs hábiles estará publicado en todos los medios y portales de venta.
                             </li>
@@ -18,9 +19,10 @@ const SectionTree = () => {
                                 Usted no debe dejar de usar su vehículo durante el proceso, nosotros nos encargamos de gestionar la venta. Al momento de tener un interesado, se coordina una visita para poder mostrarlo, Ademas un representante de la empresa va a estar con usted para una mayor seguridad y tranquilidad.
                             </li>
                         </ul>
+                        <img src={imagenuno} className="col-6" alt="imagen1" />
+                        
                         </div>    
                         
-                
             </div>
         </section>    
         </>

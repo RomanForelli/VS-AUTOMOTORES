@@ -13,6 +13,7 @@ const SectionOne = () => {
             <h1> VS </h1>
             <h2>  Automotores </h2>
             <h3> Gestoria y asesoramiento</h3>
+            <button className='btn'> Saber mas</button>
             </div>
 
         </section>

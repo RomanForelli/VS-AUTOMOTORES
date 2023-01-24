@@ -1,7 +1,36 @@
-.footer {
-    background-color: black;
+#footer {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: black;
+    padding: 20px 0;
 }
 
 .logo {
     border-radius: 20%;
+    padding: 2px;
+    margin-bottom: 4px;
+}
+
+#footer p {
+    margin-bottom: 2px !important;
+}
+
+.redes {
+    width: 50px !important;
+    height: 50px !important;
+} 
+
+.foot__menu {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.7s;
+}
+
+.foot__menu:hover {
+    color: #00d2ff !important;
+    transform: scale(1.1);
+    transition: all 1s;
+    border-color: black; 
 }

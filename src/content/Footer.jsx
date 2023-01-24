@@ -5,25 +5,26 @@ import instagram from "../img/instagram.png"
 import linkedin from "../img/linkedin.png"
 import logo from "../img/Logo2.png"
 import "../Styles/Footer.css"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <>
-        <footer>
-            
-        <div class="row justify-content-center align-items-center text-center p-1 footer">
-                <div class="d-flex flex-column col-lg-4 col-sm-12 text-center justify-content-center align-items-center">
+        <footer id='footer'>
+        <div className='container'>
+        <div className="row justify-content-center align-items-center text-center col-12">
+                <div className="d-flex flex-column col-4 text-center justify-content-center align-items-center">
                     <img src={logo} alt="logotipo" width="160" height="55" className='img-fluid logo'/>
-                    <span class="text-center"> Somos una empresa dedicada a gestionar la venta de autos entre particulares</span> 
+                    <span className="text-center"> Somos una empresa dedicada a gestionar la venta de autos entre particulares</span> 
                 </div>
-                <div class="d-flex flex-column col-lg-4 col-sm-12">
-                    <a href="#inicio" class="foot__menu"> Inicio </a>
-                    <a href="pages/servicios.html" class="foot__menu"> Servicios </a>
-                    <a href="pages/soluciones.html" class="foot__menu"> Soluciones </a>
-                    <a href="pages/nosotros.html" class="foot__menu"> Nosotros </a>
-                    <a href="pages/contacto.html" class="foot__menu"> Contacto </a>
+                <div className="d-flex flex-column col-4">
+                    <Link to="/" className="foot__menu"> Inicio </Link>
+                    <Link to="/Automotores" className="foot__menu"> Automotores </Link>
+                    <Link to="/Servicios" className="foot__menu"> Servicios </Link>
+                    <Link to="/Nosotros" className="foot__menu"> Nosotros </Link>
+                    <Link to="/Contacto" className="foot__menu"> Contacto </Link>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div className="d-flex flex-column col-4">
                     <div>
                         <p>Leandro Benitez Mombelli</p>
                         <p>VS Gestion Automotor</p>
@@ -32,20 +33,21 @@ const Footer = () => {
                         
                     </div>
                     <div>
-                        <a href>
-                        <img src={wpp} alt="whatsapp" href="" class="redes"/>
-                        </a>
-                        <a href>
-                        <img src={facebook} alt="facebook" href="" class="redes"/>
-                        </a>
-                        <a href>
-                        <img src={instagram} alt="instagram" href="" class="redes"/>
-                        </a>
-                        <a href>
-                        <img src={linkedin} alt="linkedin" href="pages/contacto.html" class="redes"/>
-                        </a>
+                        <Link href>
+                        <img src={wpp} alt="whatsapp" href="" className="redes"/>
+                        </Link>
+                        <Link href>
+                        <img src={facebook} alt="facebook" href="" className="redes"/>
+                        </Link>
+                        <Link href>
+                        <img src={instagram} alt="instagram" href="" className="redes"/>
+                        </Link>
+                        <Link href>
+                        <img src={linkedin} alt="linkedin" href="pages/contacto.html" className="redes"/>
+                        </Link>
                     </div>
                 </div>    
+            </div> 
             </div>  
         </footer>
             

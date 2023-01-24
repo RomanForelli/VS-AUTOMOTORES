@@ -1,4 +1,5 @@
 import React from 'react';
+import imagendos from "../img/img2.jpg"
 
 const SectionFour = () => {
     return (
@@ -6,10 +7,8 @@ const SectionFour = () => {
         <section id='SectionFour'>
             <div className='container'>
                 
-                    <div className='row col-12 text-start pt-3'>
-
-                        <div className='col-6 columnasVentas'>
-                        <ul>
+                    <div className='d-flex columnasVentas col-12'>
+                        <ul className='col-6 text-center'>
                             <li>
                                 Nosotros le sugerimos el mejor valor de venta para su vehículo, basados en nuestra experiencia y analizando el mercado, pero usted es quien decide tanto el valor de publicación como el valor de venta final.
                             </li>
@@ -23,10 +22,10 @@ const SectionFour = () => {
                                 Nuestro servicio solo tiene costo en caso de una venta exitosa, de lo contrario no se le cobra nada y la comision de la misma depende del valor del vehiculo.
                             </li>
                         </ul>
-                        </div>
-
+                        
+                        <img src={imagendos} alt="imagendos"  className='col-6'/>
+                        
                     </div>
-                
             </div>
         </section>    
         </>
