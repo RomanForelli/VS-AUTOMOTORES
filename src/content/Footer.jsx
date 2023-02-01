@@ -10,28 +10,32 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
-        <footer id='footer'>
+        <footer id='footer' className='row'>
         <div className='container'>
-        <div className="row justify-content-center align-items-center text-center col-12">
-                <div className="d-flex flex-column col-4 text-center justify-content-center align-items-center">
+        <div className="row justify-content-center align-items-center text-center col-12 mx-auto">
+                
+                <div className="row col-md-4 col-sm-6 text-center justify-content-center align-items-center mx-auto">
                     <img src={logo} alt="logotipo" width="160" height="55" className='img-fluid logo'/>
-                    <span className="text-center"> Somos una empresa dedicada a gestionar la venta de autos entre particulares</span> 
+                    <p className="text-center"> Somos una empresa dedicada a gestionar la venta de autos entre particulares</p> 
                 </div>
-                <div className="d-flex flex-column col-4">
+
+                <div className="d-flex flex-column col-md-4 col-sm-6 text-center justify-content-center align-items-center">
                     <Link to="/" className="foot__menu"> Inicio </Link>
                     <Link to="/Automotores" className="foot__menu"> Automotores </Link>
                     <Link to="/Servicios" className="foot__menu"> Servicios </Link>
                     <Link to="/Nosotros" className="foot__menu"> Nosotros </Link>
                     <Link to="/Contacto" className="foot__menu"> Contacto </Link>
                 </div>
-                <div className="d-flex flex-column col-4">
-                    <div>
+
+                <div className="col-md-4 col-sm-6">
+                    <div className='d-flex flex-column'>
                         <p>Leandro Benitez Mombelli</p>
                         <p>VS Gestion Automotor</p>
                         <p>VSautomotores@info.com</p>
                         <p>+54 9 11 4025 2574</p>
                         
                     </div>
+
                     <div>
                         <Link href>
                         <img src={wpp} alt="whatsapp" href="" className="redes"/>

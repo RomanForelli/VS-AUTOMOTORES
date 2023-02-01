@@ -60,25 +60,27 @@ header ul {
 header ul li {
     list-style: none;
     text-decoration: none;
+    font-size: 20px;
 }
 
 
 
 header ul li a {
     position: relative;
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     color: white !important;
     letter-spacing: 2px;
-    font-weight: 600;
     transition: 0.7s;
+    
 }
 
 header ul li a:hover{
-    color: #00d2ff !important;
+    color: #D2DBE9 !important;
     transform: scale(1.1);
     transition: all 1s;
-    border-color: black; 
+    border-color: black;
+    font-size: 22px;
 }
 
 .logo {
@@ -87,6 +89,13 @@ header ul li a:hover{
     width: 100px;
     border-radius: 20%;
     cursor: pointer;
+    transition: 0.7s;
+}
+
+.logo:hover {
+    transition: 0.7s;
+    height: 70px;
+    width: 115px;
 }
 
 .zona1 {

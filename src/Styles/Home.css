@@ -24,25 +24,27 @@
     justify-content: center;
     max-width: 1100px;
     margin: auto;
-    padding-bottom: 6rem;
+    padding-top: 2rem;
+    padding-left: 20px;
     color: white;
     letter-spacing: 10px;
 
 }
 .titulo button {
     margin: 1rem 0;
-    width: 200px;
+    width: 150px;
     background-color: white;
     color: black;
     border: 1px solid;
     border-radius: 48px;
+    transition: 0.7s;
 }
 
 .titulo button:hover {
-    
-    width: 210px;
-    background-color: #00d2ff;
-    color: white;
+    font-size: 22px;
+    width: 180px;
+    background-color: #D2DBE9;
+    color: black;
     cursor: pointer;
     border: 1px solid black;
 }
@@ -64,43 +66,67 @@
 }
 
 #SectionHomeTwo {
-    height: 80vh;
+    height: 600px;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    
+    margin-bottom: 30px
 }
 
 .HomeTwo h2 {
-    max-width: 740px;
-    font-size: 2.4rem;
-    margin-bottom: 40px;
+    max-width: 900px;
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    border-bottom: solid 1px black;
+    padding-bottom: 25px;
 }
 
 .HomeTwo p {
-    max-width: 600px;
+    max-width: 900px;
     font-size: 1.4rem;
+    margin-top: 25px;
+    align-items: flex-start;
+    
 
 }
 
-.HomeTree h2 {
-    max-width: 740px;
-    font-size: 2.4rem;
+#HomeTree h2 {
+    
+    font-size: 2rem;
     margin-bottom: 40px;
 }
 
-.HomeTree p {
-    max-width: 600px;
-    font-size: 1.4rem;
+#HomeTree p {
+    font-size: 0.9rem;
 
 }
 
-.img10 {
-    max-width: 400px;
-    max-height: 400px;
+#HomeTree img {
+    border-radius: 100px;
+    
+
 }
+/**                       curve                      **/
+
+.custom-shape-divider-top-1675202250 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1675202250 svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 133px;
+}
+
+.custom-shape-divider-top-1675202250 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
 /**                   Seccion DOS                  **/
 
 #SectionTwo {
@@ -136,16 +162,17 @@
 
 /**                   Seccion CUATRO                   **/
 
-#SectionFour .columnasVentas {
-    flex-direction: row-reverse;
-    padding-top: 20px;
+.imgservicios {  
+    max-width: 25rem;
+    max-height: 25rem;
+    padding: 20px;
     
 }
 
-.columnasVentas {  
-    display: flex; 
-    align-items: center;
-    
+.textoservicios {
+    max-width: 1000px;
+    max-height: 1000px;
+    padding: 20px;
 }
 
 /**                     Seccion CINCO                    **/
@@ -153,5 +180,34 @@
 #SectionFive {
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
+
+
+/**                            animated                           **/
+
+#animated1 {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    position: relative;
+    
+}
+
+
+
+.animated {
+    min-height: 600px !important;
+    max-width: 1140px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-top: 100px;
+}
+
+.icono {
+    max-width: 300px !important;
+    max-height: 400px !important;
+    
+    position: relative;
+    margin: 10px;
+    
+}
+
 
 /**               Seccion servicios **/

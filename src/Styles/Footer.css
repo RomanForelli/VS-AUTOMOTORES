@@ -8,6 +8,8 @@
     border-radius: 20%;
     padding: 2px;
     margin-bottom: 4px;
+    max-width: 160px !important;
+    max-height: 75px !important;
 }
 
 #footer p {

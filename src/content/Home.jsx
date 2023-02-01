@@ -4,6 +4,7 @@ import "../Styles/Home.css"
 import SectionFive from '../Layout/SectionFive';
 import SectionHometwo from '../Layout/SectionHometwo';
 import SectionHomeTree from '../Layout/SectionHomeTree';
+import Animated from '../Layout/animated';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <div className='row'>
         <SectionOne/>
         <SectionHometwo/>
+        <Animated/>
         <SectionHomeTree/>
         <SectionFive/>
         </div>
