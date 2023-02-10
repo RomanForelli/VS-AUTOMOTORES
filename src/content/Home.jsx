@@ -5,6 +5,7 @@ import SectionFive from '../Layout/SectionFive';
 import SectionHometwo from '../Layout/SectionHometwo';
 import SectionHomeTree from '../Layout/SectionHomeTree';
 import Animated from '../Layout/animated';
+import Carrusel from '../Layout/Carrusel';
 
 
 const Home = () => {
@@ -13,9 +14,11 @@ const Home = () => {
         <div className='row'>
         <SectionOne/>
         <SectionHometwo/>
-        <Animated/>
-        <SectionHomeTree/>
         <SectionFive/>
+        <SectionHomeTree/>
+        <Animated/>
+        <Carrusel/>
+        
         </div>
         
         </>

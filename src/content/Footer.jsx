@@ -15,8 +15,8 @@ const Footer = () => {
         <div className="row justify-content-center align-items-center text-center col-12 mx-auto">
                 
                 <div className="row col-md-4 col-sm-6 text-center justify-content-center align-items-center mx-auto">
-                    <img src={logo} alt="logotipo" width="160" height="55" className='img-fluid logo'/>
-                    <p className="text-center"> Somos una empresa dedicada a gestionar la venta de autos entre particulares</p> 
+                    <img src={logo} alt="logotipo" width="160" height="55" className='img-fluid logo2'/>
+                    <p className="text-center text-white font-weight-bold"> Somos una empresa dedicada a gestionar la venta de autos entre particulares</p> 
                 </div>
 
                 <div className="d-flex flex-column col-md-4 col-sm-6 text-center justify-content-center align-items-center">

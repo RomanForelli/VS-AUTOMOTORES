@@ -66,9 +66,9 @@
 }
 
 #SectionHomeTwo {
-    height: 600px;
+    height: 750px;
     width: 100%;
-    margin-bottom: 30px
+    
 }
 
 .HomeTwo h2 {
@@ -84,18 +84,18 @@
     font-size: 1.4rem;
     margin-top: 25px;
     align-items: flex-start;
-    
+    min-height: 1vh;
 
 }
 
 #HomeTree h2 {
     
-    font-size: 2rem;
+    font-size: 35px;
     margin-bottom: 40px;
 }
 
 #HomeTree p {
-    font-size: 0.9rem;
+    font-size: 17px ;
 
 }
 
@@ -178,8 +178,10 @@
 /**                     Seccion CINCO                    **/
 
 #SectionFive {
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    background-image:linear-gradient(to top, #accbee 0%, #e7f0fd 100%) !important;
+    margin-top: 20px;
 }
+
 
 
 /**                            animated                           **/
@@ -207,6 +209,23 @@
     position: relative;
     margin: 10px;
     
+}
+
+/***                  Carrusel                           **/
+
+#carouselExampleIndicators {
+    height: 600px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.carrusel h1{
+    font-size: 4em;
+    padding: 0;
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+    display: inline-block; 
+    color: #37477B
 }
 
 
