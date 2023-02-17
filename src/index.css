@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0 !important;
-  font-family: 'Cardo', serif !important;
+  font-family: 'Cardo', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   

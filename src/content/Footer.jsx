@@ -16,14 +16,13 @@ const Footer = () => {
                 
                 <div className="row col-md-4 col-sm-6 text-center justify-content-center align-items-center mx-auto">
                     <img src={logo} alt="logotipo" width="160" height="55" className='img-fluid logo2'/>
-                    <p className="text-center text-white font-weight-bold"> Somos una empresa dedicada a gestionar la venta de autos entre particulares</p> 
+                    <p className="text-center text-white  fs-5"> Somos una empresa dedicada a gestionar la venta de autos entre particulares</p> 
                 </div>
 
                 <div className="d-flex flex-column col-md-4 col-sm-6 text-center justify-content-center align-items-center">
                     <Link to="/" className="foot__menu"> Inicio </Link>
                     <Link to="/Automotores" className="foot__menu"> Automotores </Link>
                     <Link to="/Servicios" className="foot__menu"> Servicios </Link>
-                    <Link to="/Nosotros" className="foot__menu"> Nosotros </Link>
                     <Link to="/Contacto" className="foot__menu"> Contacto </Link>
                 </div>
 

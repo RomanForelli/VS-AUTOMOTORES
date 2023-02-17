@@ -1,7 +1,16 @@
 #footer {
-    background-image: linear-gradient(135deg, #041b3d 0%, #c3cfe2 100%);
-    color: black;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: white;
     padding: 20px 0;
+
+}
+
+
+#footer p {
+    font-size: 18px;
 }
 
 .logo2 {
@@ -23,16 +32,18 @@
 
 .foot__menu {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 2px;
     letter-spacing: 2px;
     font-weight: 700;
     transition: 0.7s;
+    font-size: 20px;
 }
 
 .foot__menu:hover {
-    color: #00d2ff !important;
-    transform: scale(1.1);
+    color: white;
+    transform: scale(1.2);
     transition: all 1s;
-    border-color: black; 
+    border-color: black;
+    text-decoration: underline;
 }

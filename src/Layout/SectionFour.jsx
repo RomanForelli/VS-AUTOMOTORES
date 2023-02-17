@@ -10,16 +10,12 @@ const SectionFour = () => {
                     <div className='row  textoservicios mx-auto align-items-center text-center'>
                         <div className='col-md-6'>
                             <p>
-                            Nosotros le sugerimos el mejor valor de venta para su vehículo, basados en nuestra experiencia y analizando el mercado, pero usted es quien decide tanto el valor de publicación como el valor de venta final.
+                            Nos esforzamos por brindarle la mejor valoración de venta para su vehículo, basándonos en nuestra amplia experiencia y análisis del mercado. Sin embargo, la decisión final sobre el valor de publicación y venta es suya.
                             </p>
                             <p>
-                            También nos encargamos de responder todas las consultas, llamar a los interesados y coordinar las visitas para mostrarlo.
-                            </p>
+                            Nos encargamos de atender todas las preguntas y llamados de posibles compradores, coordinamos las visitas para que puedan ver el vehículo y, en el momento de la entrega, estamos a su lado durante todo el proceso, incluso acompañándolo al registro automotor para asegurarnos de una transición sin problemas.                            </p>
                             <p>
-                            Al momento de la entrega también acompañamos en toda la gestión e incluso vamos con el comprador al registro automotor para presentar la transferencia y darle tranquilidad de que el vehículo fue transferido.
-                            </p>
-                            <p>
-                            Nuestro servicio solo tiene costo en caso de una venta exitosa, de lo contrario no se le cobra nada y la comision de la misma depende del valor del vehiculo.
+                            Nuestro servicio solo tiene un costo en caso de una venta exitosa, en caso contrario, no se le cobrará nada y la comisión depende del valor del vehículo.
                             </p>
                         </div>
                         <div className='col-md-6 d-flex align-items-center text-center mx-auto justify-content-center'>

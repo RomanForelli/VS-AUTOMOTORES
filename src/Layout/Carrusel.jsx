@@ -42,7 +42,6 @@ const Carrusel = () => {
                 </div>
 
         </section>
-           
         </>
     );
 }

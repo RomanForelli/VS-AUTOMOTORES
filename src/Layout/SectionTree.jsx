@@ -1,5 +1,6 @@
 import React from 'react';
 import imagenuno from "../img/hombrepapeles1.jpg"
+import "../Styles/Home.css"
 
 const SectionTree = () => {
     return (
@@ -11,13 +12,11 @@ const SectionTree = () => {
                         
                         <div className='col-md-6'>
                             <p>
-                                Si le interesa nuestro servicio, coordinamos un día y horario para acercarnos a donde se encuentre su vehículo, le tomamos las fotos correspondientes y le solicitamos firmar la autorización de venta, una vez realizado, dentro de las 48hs hábiles estará publicado en todos los medios y portales de venta.
+                            Si está interesado en nuestro servicio, podemos programar una visita a su ubicación para tomar las fotografías necesarias de su vehículo y obtener su autorización de venta. Una vez recibido, en un plazo máximo de 48 horas hábiles, su vehículo estará disponible para su venta en los mejores portales especializados y en nuestras redes sociales, como Facebook, Instagram y Marketplace. También lo recomendaremos a nuestra amplia cartera de clientes para agilizar la venta.
                             </p>
+
                             <p>
-                                Publicamos en todos los portales de venta especializados. También en nuestras redes sociales (Facebook, Instagram y Marketplace) y recomendamos a nuestra cartera de clientes para lograr una venta más pronta.
-                            </p>
-                            <p>
-                                Usted no debe dejar de usar su vehículo durante el proceso, nosotros nos encargamos de gestionar la venta. Al momento de tener un interesado, se coordina una visita para poder mostrarlo, Ademas un representante de la empresa va a estar con usted para una mayor seguridad y tranquilidad.
+                            Durante el proceso, usted puede seguir utilizando su vehículo normalmente, mientras nosotros nos encargamos de la gestión completa de la venta. Si algún interesado desea ver su vehículo en persona, coordinaremos una visita para su exhibición, y un representante de nuestra empresa estará a su lado para garantizar su seguridad y tranquilidad.
                             </p>
                         </div>
 
